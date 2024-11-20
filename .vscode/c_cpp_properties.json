@@ -1,0 +1,19 @@
+// change <python_path> and <gcc_path> to your env paths
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "<python_path>/site-packages/torch/include",
+                "<python_path>/site-packages/torch/include/torch/csrc/api/include/",
+            ],
+            "defines": [],
+            "compilerPath": "<gcc_path>",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
