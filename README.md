@@ -1,5 +1,5 @@
 # Pytorch-Extension-Cuda
-A simple C++ / CUDA extension demo in pytorch which support multiplied GPU \
+A simple C++ / CUDA extension demo in pytorch which support multiplied GPUs \
 一个支持多GPU的pytorch C++ / CUDA 扩展示例
 
 This repo was edited on vscode and you can change the paths in `.vscode/c_cpp_properties.json` to config intellisense \
